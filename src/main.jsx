@@ -4,6 +4,7 @@ import './index.css'
 
 import Card from './componentes/card/Card.jsx'
 import Menu from './Menu/Menu.jsx'
+import Alojamientos from './alojamientos/Alojamientos'
 
 
 let array = [] 
@@ -11,9 +12,6 @@ let array = []
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Menu/>
-   <div className='test'>
-    <Card  titulo="Casa de Fin de semana"/>
-    <Card  titulo="Pa Dominguear"/>
-   </div>
+    <Alojamientos/>
   </React.StrictMode>,
 )
